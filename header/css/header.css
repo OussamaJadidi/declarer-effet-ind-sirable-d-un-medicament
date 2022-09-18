@@ -1,0 +1,156 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-size: 15px;
+    padding: 0 20px 0 20px;
+    box-shadow: 0 0px 5px rgba(0,0,0,0.2);
+}
+.logo img{
+    margin-top: 8px;
+}
+nav{
+    font-family: Arial, sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+nav ul li >a{
+    padding-bottom: 6px;
+}
+.menu-links{
+    font-weight: bold;
+    font-size:15px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+.menu-links:hover ,.menu-links:hover .fa-angle-down{
+    color: #009000;
+}
+
+.menu-links:focus{
+    color: #009000;
+}
+nav ul li a:hover{
+    color: #009000;
+    border-bottom: 1px solid green;
+}
+.se-connecter-button{
+    border: 1px solid #009000;
+    width: 130px;
+    height: 30px;
+    color: white;
+    background-color: #009000;
+    border-radius: 5px;
+    transition: 0.5;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+.se-connecter-button:hover{
+    transform: scale(1.05);
+}
+header div img:nth-child(2){
+    padding-bottom: 15px;
+    margin-left: -15px;
+}
+header ul form input{
+    width: 250px;
+    height: 30px;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    color: black;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+}
+header ul form input::placeholder{
+    font-weight: bold;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search{
+    position: relative;
+}
+.fa-search{
+    color:white;
+}
+
+header ul form button{
+    cursor: pointer;
+    background-color: #009000;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    position: absolute;
+    right: 4px;
+    top:4px;
+}
+.services{
+    position: relative;
+}
+.services-link{
+    cursor: pointer;
+}
+.services-menu{
+    text-align: center;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 40px;
+    right: -15px;
+    z-index: 1;
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.services > .services-link:focus + .services-menu{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.services > .services-link:focus .fa-angle-down{
+    transform: rotate(180deg);
+    color: #009000;
+}
+
+.services-menu table{
+    padding: 0;
+    margin: 0;
+}
+.services-menu tr {
+    display: flex;
+    flex-direction: column;
+    margin: -2px;
+
+}
+.services-menu table tr td{
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.services-menu table tr td button{
+    width: 130px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.services-menu table tr td button:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.fa-bullhorn{
+    margin-left: -10px;
+}

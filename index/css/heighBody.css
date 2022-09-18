@@ -1,0 +1,140 @@
+.globalHeighBody{
+    display: flex;
+    
+    width: 100%;
+    overflow: hidden;
+   
+}
+.sousGlobalHeighBody{
+    display: flex;
+    width: 300vw;
+    animation: 25s slide infinite ease-in-out;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(0);
+    }
+    35%{
+        transform: translateX(-100vw);
+    }
+    60%{
+        transform: translateX(-100vw);
+    }
+    65%{
+        transform: translate(-200vw);
+    }
+    90%{
+        transform: translate(-200vw);
+    }
+    95%{
+        transform: translate(0vw);
+    }
+}
+.empty{
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.heighBody{
+    width: 100vw;
+    height: 400px;
+    background-image: url("../images/dd.PNG");
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    position: relative;
+}
+.heighBody-content{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left:0;
+    background-color: rgba(0,200,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heighBody-content p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    padding: 0 50px 0 50px; 
+}
+
+
+
+
+.heighBody1{
+    width: 100vw;
+    height: 400px;
+    background-image: url("../images/gfg.PNG");
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    position: relative;
+}
+.heighBody1-content{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,200,0,0.15);
+}
+.heighBody1-content p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    padding: 0 50px 0 50px; 
+}
+
+
+.heighBody2{
+    width: 100vw;
+    height: 400px;
+    background-image: url("../images/t.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    position: relative;
+}
+.heighBody2-content{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,200,0,0.15);
+}
+.heighBody2-content p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    padding: 0 50px 0 50px; 
+}

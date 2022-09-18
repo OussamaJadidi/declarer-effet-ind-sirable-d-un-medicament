@@ -1,0 +1,27 @@
+.contact-body{
+    width: 100%;
+    height: 100vh;
+}
+.contact-info fieldset{
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 5px;
+}
+.contact-info fieldset legend{
+    margin-left: 20px;
+}
+.contact-info fieldset p{
+    text-indent: 1cm;
+    margin-block: 10px;
+    font-size: 20px;
+}
+.localisation-map{
+    position: relative;
+    padding: 20px;
+}
+.localisation-map iframe{
+    display: block;
+    
+    width: 100%;
+    height: 400px;
+}
